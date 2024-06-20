@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|c:\\users\\joeli\\desktop\\systemcreche\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|c:\\users\\joeli\\desktop\\systemcreche\\webapi\\controllers\\turmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|solutionrelative:controllers\\turmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|c:\\users\\joeli\\desktop\\systemcreche\\webapi\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|solutionrelative:controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|c:\\users\\joeli\\desktop\\systemcreche\\webapi\\controllers\\encarregadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|solutionrelative:controllers\\encarregadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|c:\\users\\joeli\\desktop\\systemcreche\\webapi\\controllers\\atividadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|solutionrelative:controllers\\atividadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|c:\\users\\joeli\\desktop\\systemcreche\\webapi\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31727921-8E11-45D2-B740-11CF1054B792}|webapi.csproj|solutionrelative:controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 363,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T07:20:05.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TurmaController.cs",
+              "DocumentMoniker": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Controllers\\TurmaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TurmaController.cs",
+              "ToolTip": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Controllers\\TurmaController.cs",
+              "RelativeToolTip": "Controllers\\TurmaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:05:16.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EncarregadoController.cs",
+              "DocumentMoniker": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Controllers\\EncarregadoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EncarregadoController.cs",
+              "ToolTip": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Controllers\\EncarregadoController.cs",
+              "RelativeToolTip": "Controllers\\EncarregadoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:05:14.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FuncionarioController.cs",
+              "DocumentMoniker": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Controllers\\FuncionarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FuncionarioController.cs",
+              "ToolTip": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Controllers\\FuncionarioController.cs",
+              "RelativeToolTip": "Controllers\\FuncionarioController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:02:02.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AtividadeController.cs",
+              "DocumentMoniker": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Controllers\\AtividadeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AtividadeController.cs",
+              "ToolTip": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Controllers\\AtividadeController.cs",
+              "RelativeToolTip": "Controllers\\AtividadeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:01:20.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlunoController.cs",
+              "DocumentMoniker": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Controllers\\AlunoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlunoController.cs",
+              "ToolTip": "C:\\Users\\joeli\\Desktop\\SystemCreche\\webApi\\Controllers\\AlunoController.cs",
+              "RelativeToolTip": "Controllers\\AlunoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:41:28.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

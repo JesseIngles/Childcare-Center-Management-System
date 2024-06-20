@@ -1,0 +1,415 @@
+[
+  {
+    "ContainingType": "webapi.Controllers.AlunoController",
+    "Method": "AtualizarAluno",
+    "RelativePath": "Aluno/v1/AtualizarAluno",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "aluno",
+        "Type": "webapi.DTO.Inbound.DTO_Aluno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.AlunoController",
+    "Method": "CadastrarAluno",
+    "RelativePath": "Aluno/v1/CadastrarAluno",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aluno",
+        "Type": "webapi.DTO.Inbound.DTO_Aluno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.AlunoController",
+    "Method": "TodosAlunos",
+    "RelativePath": "Aluno/v1/TodosAlunos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.AlunoController",
+    "Method": "VerAluno",
+    "RelativePath": "Aluno/v1/VerAluno",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.AtividadeController",
+    "Method": "CriarAtividade",
+    "RelativePath": "Atividade/v1/CriarAtividade",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "atividade",
+        "Type": "webapi.DTO.Inbound.DTO_Atividade",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.AtividadeController",
+    "Method": "Atividades",
+    "RelativePath": "Atividade/v1/TurmaAtividades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "turmaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.EncarregadoController",
+    "Method": "AtualizarEncarregado",
+    "RelativePath": "Encarregado/v1/AtualizarEncarregado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "encarregado",
+        "Type": "webapi.DTO.Inbound.DTO_Encarregado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.EncarregadoController",
+    "Method": "CadastrarEncarregado",
+    "RelativePath": "Encarregado/v1/CadastrarEncarregado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "encarregado",
+        "Type": "webapi.DTO.Inbound.DTO_Encarregado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.EncarregadoController",
+    "Method": "LogarEncarregado",
+    "RelativePath": "Encarregado/v1/LogarFuncionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credenciais",
+        "Type": "webapi.DTO.Inbound.DTO_Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.EncarregadoController",
+    "Method": "TodosEncarregados",
+    "RelativePath": "Encarregado/v1/TodosEncarregados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.EncarregadoController",
+    "Method": "VerEncarregado",
+    "RelativePath": "Encarregado/v1/VerEncarregado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.FuncionarioController",
+    "Method": "CadastrarFuncionario",
+    "RelativePath": "Funcionario/v1/CadastrarFuncionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionario",
+        "Type": "webapi.DTO.Inbound.DTO_Funcionario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.FuncionarioController",
+    "Method": "LogarFuncionario",
+    "RelativePath": "Funcionario/v1/LogarFuncionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credenciais",
+        "Type": "webapi.DTO.Inbound.DTO_Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.TurmaController",
+    "Method": "AtualizarTurma",
+    "RelativePath": "Turma/v1/AtualizarTurma",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "turma",
+        "Type": "webapi.DTO.Inbound.DTO_Turma",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.TurmaController",
+    "Method": "CadastrarTurma",
+    "RelativePath": "Turma/v1/CadastrarTurma",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "turma",
+        "Type": "webapi.DTO.Inbound.DTO_Turma",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapi.Controllers.TurmaController",
+    "Method": "TodasTurmas",
+    "RelativePath": "Turma/v1/TodasTurmas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "webapi.DTO.Outbound.DTO_Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
