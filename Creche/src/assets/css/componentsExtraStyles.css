@@ -1,0 +1,67 @@
+
+
+.float{
+    animation-name: topBottom;
+    animation-duration: 2.3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.float2{
+    animation-name: BottomTop;
+    animation-duration: 2.3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.rotate{
+    animation-name: rotate;
+    animation-duration: 2.3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+
+@keyframes topBottom {
+    0% {
+        transform: translateY(0);
+        animation-timing-function: ease-in;
+      }
+      50% {
+        transform: translateY(10px);
+        animation-timing-function: ease-out;
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
+
+@keyframes BottomTop {
+    0% {
+        transform: translateY(0);
+        animation-timing-function: ease-in;
+      }
+      50% {
+        transform: translateY(-10px);
+        animation-timing-function: ease-out;
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+        animation-timing-function: ease-in;
+      }
+      50% {
+        transform: rotate(10deg);
+        animation-timing-function: ease-out;
+      }
+      100% {
+        transform: rotate(0);
+      }
+}
